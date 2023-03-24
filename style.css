@@ -1,0 +1,70 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.900), rgba(0,0,0,0.900)), url(/images/ab67616d0000b273d78ea8b904d5c03267f02427.jfif);
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    
+    padding-top: 50px;
+}
+
+.art{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.art img{
+    height: 300px;
+    width: 300px;
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: rgba(240, 248, 255, 0.452);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hide scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.lyrics{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #f3f3f3;
+    text-align: center;
+
+    height: 400px; /* set the height of the container */
+    overflow-y: scroll; /* add vertical scroll */
+    padding: 10px; /* add some padding */
+}
+
+p{
+    margin: 0;
+}
+
+
+/* media */
+@media only screen and (max-width: 768px) {
+    body {
+        display: block;
+      }
+
+    .art img{
+        height: 150px;
+        width: 150px;
+    }
+  }
